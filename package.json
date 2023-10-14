@@ -1,0 +1,22 @@
+{
+  "name": "ahj-homeworks-http-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "models.js",
+  "scripts": {
+    "watch": "forever -w src/js/server.js",
+    "forever:start": "forever start src/js/server.js",
+    "forever:stop": "forever stop src/js/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "core-js": "^3.33.0",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1"
+  },
+  "devDependencies": {
+    "forever": "^4.0.3"
+  }
+}
